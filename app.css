@@ -73,6 +73,7 @@
     width: 100%;
     height: 3rem;
     background-color: #cacaca77;
+    color: rgb(83, 71, 71);
   }
 
 
@@ -216,3 +217,99 @@ body {
     height: 400px;
 }
 
+/* contact.html */
+.contactCard{
+	width: 200px; /* ⬅ Size - Small (width: 200px), Medium (width: 225px), Large (width: 250px) */
+	overflow: hidden;
+	background-color: #FFFFFF;
+   
+	border-radius: 15px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	text-align: center;
+	-webkit-transition: .1s ease-in-out;
+	transition: .1s ease-in-out;
+}
+
+	.contactCard:first-of-type{
+		margin-right: 25px;
+	}
+
+	.contactCard:hover{
+		margin-top: -10px;
+		box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	}
+
+.banner{
+	height: 100px;
+	width: 100%;
+	padding-top: 30px;
+	background-color: #FAFAFA;
+	background-size: cover;
+	background-position: center;
+}
+
+	.contactCard:first-of-type .banner{
+		background-image: url("https://pbs.twimg.com/profile_banners/1026096500902903809/1556969620/1500x500");
+	}
+
+.avatar{
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	background-size: cover;
+	background-position: center;
+	background-color: #F1F1F1;
+	border-radius: 100%;
+}
+
+	.contactCard:nth-child(1) .avatar{
+		background-image: url("images/profile.jpg");
+	}
+
+ .contactCard h3, a, i{
+	/* font-family: 'Roboto', sans-serif;
+	font-weight: lighter; */
+	-webkit-transition: .1s ease-in-out;
+	transition: .1s ease-in-out;
+}
+
+.contactCard	h3{
+		margin-top: 45px;
+		margin-bottom: 5px;
+		font-size: 18px;
+		color: #212121;
+  }
+  
+
+
+.contactCard	a{
+		display: block;
+		padding: 5px 0px;
+		font-size: 14px;
+		color: #9E9E9E;
+		text-decoration: none;
+  }
+  
+.contactCard	a:hover{
+			background-color: #FAFAFA;
+			color: inherit;
+		}
+
+.contactCard ul{
+	margin-top: 10px;
+	padding: 15px 0px;
+	background-color: #FAFAFA;
+}
+
+.contactCard ul a{
+		display: inline;
+		margin-right: 10px;
+	}
+
+.contactCard ul a:last-of-type{
+			margin-right: 0px;
+		}
+
+.contactCard ul a i:hover{
+				transform: scale(1.5);
+			}

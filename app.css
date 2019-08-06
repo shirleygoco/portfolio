@@ -15,19 +15,21 @@
 @media only screen and (min-width: 1200px) {
   .itProfCard {height: 20rem;}
   /* .craftCard {height: 20rem;} */
+  .craftCardText {font-size: 12px;} 
 }
 
 /* large */
 @media only screen and (max-width: 1199px) {
   html {font-size: 14px;}
   .itProfCard {height: 10rem;}
+  .craftCardText {font-size: 10px;} 
   /* .craftCard {height: 10rem;} */
 }
 
 /* medium */
 @media only screen and (max-width: 991px) {
     html {font-size: 12px;}
-    /* .craftCardText {font-size: 10px;} */
+    .craftCardText {font-size: 10px;}
     /* .craftCard div {width:8rem;} */
     /* .craftCard {height: 12rem;} */
     .itProfCard {height: 12rem;}

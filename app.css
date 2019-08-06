@@ -41,16 +41,47 @@
 }
 
 
+/* index elements*/
+.itMapLink {
+  position: absolute; 
+  left: 14.41%; 
+  top: 38.43%; 
+  width: 27.59%; 
+  height: 28.52%; 
+  z-index: 2;
+}
 
-/*main/index.html elements*/
+.crafterMapLink {
+  position: absolute; 
+  left: 42.97%; 
+  top: 33.9%; 
+  width: 15.08%; 
+  height: 15.14%; 
+  z-index: 2;
+}
+
+.contactMapLink {
+  position: absolute; 
+  left: 42.46%; 
+  top: 75.02%; 
+  width: 14.46%; 
+  height: 13.07%; 
+  z-index: 2;
+}
+
+/*about.html elements*/
 
 #page-container {
     position: relative;
     min-height: 100vh;
-  }
+     }
+
+.indexBody {
+  background: url('https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80') no-repeat center center /cover;
+}
   
   #content-wrap {
-    padding-bottom: 3rem;   
+    padding-bottom: 2.5rem;   
   }
 
 .devContainer div {
@@ -71,7 +102,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 3rem;
+    height: 2.5rem;
     background-color: #cacaca77;
     color: rgb(83, 71, 71);
   }
@@ -249,7 +280,8 @@ body {
 }
 
 	.contactCard:first-of-type .banner{
-		background-image: url("https://pbs.twimg.com/profile_banners/1026096500902903809/1556969620/1500x500");
+    /* background: rgba(10, 104, 104, 0.363); */
+		background-image: url("https://images.unsplash.com/photo-1533035353720-f1c6a75cd8ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
 	}
 
 .avatar{

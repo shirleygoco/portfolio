@@ -261,11 +261,7 @@ body {
 	transition: .1s ease-in-out;
 }
 
-	.contactCard:first-of-type{
-		margin-right: 25px;
-	}
-
-	.contactCard:hover{
+		.contactCard:hover{
 		margin-top: -10px;
 		box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 	}

@@ -14,8 +14,8 @@
 /* extra large */
 @media only screen and (min-width: 1200px) {
   .itProfCard {height: 20rem;}
-  /* .craftCard {height: 20rem;} */
   .craftCardText {font-size: 12px;} 
+  #accessoriesCraftTextID {width:100%;}
 }
 
 /* large */
@@ -23,30 +23,26 @@
   html {font-size: 14px;}
   .itProfCard {height: 10rem;}
   .craftCardText {font-size: 10px;} 
-  /* .craftCard {height: 10rem;} */
+  #accessoriesCraftTextID {width:110%;}
 }
 
 /* medium */
 @media only screen and (max-width: 991px) {
     html {font-size: 12px;}
     .craftCardText {font-size: 10px;}
-    /* .craftCard div {width:8rem;} */
-    /* .craftCard {height: 12rem;} */
+    #accessoriesCraftTextID {width:100%;}
     .itProfCard {height: 12rem;}
 }
 
 /* small */
 @media only screen and (max-width: 767px) {
     html {font-size: 12px;}
-    /* .craftCardText {font-size: 10px;} */
-    /* .craftCard div {width:6rem;} */
     .itProfCard {height: 20rem;} 
-    /* .craftCard {height: 20rem;} */
 }
 
 
 
-
+/*main/index.html elements*/
 
 #page-container {
     position: relative;
@@ -56,11 +52,6 @@
   #content-wrap {
     padding-bottom: 3rem;   
   }
-
- /* .mainContainer {
-    min-height: 70vh;
-    position: relative;
-}      */
 
 .devContainer div {
     min-height: 70vh;
@@ -137,19 +128,13 @@ body {
 }
 
 
-
-/* .mainContainer h1 {
-    font-size: 1em;
-} */
-
-
+/*itprof.html elements*/
 .itProfCard{
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 100%;
-    /* height: 20rem; */
     background: rgb(255, 255, 255);
     overflow: hidden;
     border-radius: 5px;
@@ -165,20 +150,6 @@ body {
     background-position: center center;
     transition: .4s;
   }
-
-/* .itProfCard .front:after{
-  content: "last minute";
-  width: 200px;
-  background: red;
-  position: absolute;
-  right: -66px;
-  top: 6px;
-  transform: rotate(45deg);
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-  transition: .4s;
-} */
 
 .itProfCard:hover .front:after{
   opacity: 0;
@@ -245,24 +216,3 @@ body {
     height: 400px;
 }
 
-/* #frame {
-    position: relative;
-    overflow: hidden;
-    width: 860px;
-    height: 100%;
-  } */
-/* .plSqlFront {
-    background: url('images/projects/it/plsql.png')  no-repeat center center /cover;
-} */
-
- /* .perlFront {
-    background: url('images/projects/it/header_camel.png')  no-repeat center center /cover;
-}  */
-
-/* .webFront {
-    background: url('https://source.unsplash.com/s7CKGGFgN6A');
-}
-
-.penTestFront {
-    background: url('https://source.unsplash.com/s7CKGGFgN6A');
-} */

@@ -41,8 +41,35 @@
 }
 
 
+/* index elements*/
+.itMapLink {
+  position: absolute; 
+  left: 14.41%; 
+  top: 38.43%; 
+  width: 27.59%; 
+  height: 28.52%; 
+  z-index: 2;
+}
 
-/*main/about.html elements*/
+.crafterMapLink {
+  position: absolute; 
+  left: 42.97%; 
+  top: 33.9%; 
+  width: 15.08%; 
+  height: 15.14%; 
+  z-index: 2;
+}
+
+.contactMapLink {
+  position: absolute; 
+  left: 42.46%; 
+  top: 75.02%; 
+  width: 14.46%; 
+  height: 13.07%; 
+  z-index: 2;
+}
+
+/*about.html elements*/
 
 #page-container {
     position: relative;

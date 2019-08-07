@@ -142,7 +142,7 @@ body {
 
 
 .craftJumbo {
-    color: rgb(102, 101, 101);
+    color:rgb(235, 227, 227);
     z-index: 0;
 }
 
@@ -202,7 +202,7 @@ body {
   }
 
 .devJumbo:hover {
-    color:  rgb(102, 101, 101);
+    color:  rgb(235, 227, 227);
     z-index: 0;
 }
 

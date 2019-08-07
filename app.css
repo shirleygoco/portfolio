@@ -33,14 +33,14 @@
     html {font-size: 12px;}
     .craftCardText {font-size: 10px;}
     #accessoriesCraftTextID {width:100%;}
-    .itProfCard {height: 12rem;}
+    .itProfCard {height: 12rem; font-size: 10px;}
     .indexContainer::before {background-image: url("images/site/bg_index_1619x1080.jpeg");}
 }
 
 /* small */
 @media only screen and (max-width: 767px) {
     html {font-size: 12px;}
-    .itProfCard {height: 20rem;} 
+    .itProfCard {height: 20rem;font-size: 12px;} 
     .indexContainer::before {background-image: url("images/site/bg_index_1152x768.jpeg");}
 }
 

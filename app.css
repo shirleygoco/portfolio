@@ -72,6 +72,32 @@ opacity: 0.2;
 background-position: center;
 }
 
+/* #343a40 */
+
+.landingText {
+  color: rgb(102, 101, 101);
+  text-shadow: #aaadb1 2px 2px;
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+  padding-left:0px;
+  padding-right:0px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: bold;
+  }
+
+  .landingText::before {
+    content: "";
+    display: block;
+    position: absolute;
+    margin-left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background-color: #cacaca77;
+    }
+
 /* .indexBody {
   background: url('https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80') no-repeat center center /cover;
 } */
@@ -79,6 +105,8 @@ background-position: center;
   #content-wrap {
     padding-bottom: 2.5rem;   
   }
+
+
 
 .devContainer div {
     min-height: 70vh;

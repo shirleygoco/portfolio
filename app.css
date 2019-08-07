@@ -142,7 +142,7 @@ body {
 
 
 .craftJumbo {
-    color: rgb(102, 101, 101);
+    color:rgb(235, 227, 227);
     z-index: 0;
 }
 
@@ -157,7 +157,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: -2;
-  opacity: 0.3;
+  opacity: 0.6;
   background-position: center;
   }
 
@@ -177,7 +177,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: -2;
-    opacity: 0.3;
+    opacity: 0.6;
     background-position: center;
 }
 
@@ -197,12 +197,12 @@ body {
   width: 100%;
   height: 100%;
   z-index: -2;
-  opacity: 0.3;
+  opacity: 0.6;
   background-position: center;
   }
 
 .devJumbo:hover {
-    color:  rgb(102, 101, 101);
+    color:  rgb(235, 227, 227);
     z-index: 0;
 }
 
@@ -217,7 +217,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: -2;
-  opacity: 0.3;
+  opacity: 0.6;
   background-position: center;
 }
 

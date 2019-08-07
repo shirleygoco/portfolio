@@ -16,6 +16,7 @@
   .itProfCard {height: 20rem;}
   .craftCardText {font-size: 12px;} 
   #accessoriesCraftTextID {width:100%;}
+  .indexContainer::before {background-image: url("images/site/bg_index.jpeg");}
 }
 
 /* large */
@@ -24,6 +25,7 @@
   .itProfCard {height: 10rem;}
   .craftCardText {font-size: 10px;} 
   #accessoriesCraftTextID {width:110%;}
+  .indexContainer::before {background-image: url("images/site/bg_index.jpeg");}
 }
 
 /* medium */
@@ -31,54 +33,48 @@
     html {font-size: 12px;}
     .craftCardText {font-size: 10px;}
     #accessoriesCraftTextID {width:100%;}
-    .itProfCard {height: 12rem;}
+    .itProfCard {height: 12rem; font-size: 10px;}
+    .indexContainer::before {background-image: url("images/site/bg_index_1619x1080.jpeg");}
 }
 
 /* small */
 @media only screen and (max-width: 767px) {
     html {font-size: 12px;}
-    .itProfCard {height: 20rem;} 
+    .itProfCard {height: 20rem;font-size: 12px;} 
+    .indexContainer::before {background-image: url("images/site/bg_index_1152x768.jpeg");}
 }
 
-
-/* index elements*/
-.itMapLink {
-  position: absolute; 
-  left: 14.41%; 
-  top: 38.43%; 
-  width: 27.59%; 
-  height: 28.52%; 
-  z-index: 2;
+/* xsmall */
+@media only screen and (max-width: 460px) {
+  .indexContainer::before {background-image: url("images/site/bg_index_720x480.jpeg");}
 }
 
-.crafterMapLink {
-  position: absolute; 
-  left: 42.97%; 
-  top: 33.9%; 
-  width: 15.08%; 
-  height: 15.14%; 
-  z-index: 2;
-}
-
-.contactMapLink {
-  position: absolute; 
-  left: 42.46%; 
-  top: 75.02%; 
-  width: 14.46%; 
-  height: 13.07%; 
-  z-index: 2;
-}
-
-/*about.html elements*/
+/*index.html elements*/
 
 #page-container {
     position: relative;
     min-height: 100vh;
      }
 
-.indexBody {
-  background: url('https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80') no-repeat center center /cover;
+
+.indexContainer::before {
+/* background-image: url('https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'); */
+background-size: cover;
+content: "";
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -2;
+opacity: 0.2;
+background-position: center;
 }
+
+/* .indexBody {
+  background: url('https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80') no-repeat center center /cover;
+} */
   
   #content-wrap {
     padding-bottom: 2.5rem;   

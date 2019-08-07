@@ -335,6 +335,10 @@ body {
     height: 400px;
 }
 
+.companyDiv {
+  font-size: 12px;
+}
+
 /* contact.html */
 .contactCard{
 	width: 200px; /* ⬅ Size - Small (width: 200px), Medium (width: 225px), Large (width: 250px) */

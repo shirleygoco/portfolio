@@ -73,12 +73,13 @@
  
                                   <p> Send me a message via this form
                                   </p>
-                        
+                                  <!-- "https://formspree.io/ssgmanila@gmail.com" -->
                                   <form
                                     class="contact-form d-flex flex-column align-items-center"
-                                    action="https://formspree.io/ssgmanila@gmail.com"
+                                    action="https://formcarry.com/s/hCMgqkxMWhC" 
                                     method="POST"
                                   >
+                                  
                                     <div class="form-group w-75">
                                       <input
                                         type="name"
@@ -93,18 +94,26 @@
                                         type="email"
                                         class="form-control"
                                         placeholder="Email"
-                                        name="name"
+                                        name="email"
                                         required
                                       />
                                     </div>
                         
+                                    <div class="form-group w-75">
+                                      <select class="form-control" name="reason">
+                                        <option selected disabled>Choose...</option>
+                                        <option value="General">General enquiry</option>
+                                        <option value="CV">Request copy of resume</option>
+                                      </select>
+                                    </div>
+
                                     <div class="form-group w-75">
                                       <textarea
                                         class="form-control"
                                         type="text"
                                         placeholder="Message"
                                         rows="7"
-                                        name="name"
+                                        name="message"
                                         required
                                       ></textarea>
                                     </div>
